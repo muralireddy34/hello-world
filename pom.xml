@@ -32,11 +32,16 @@
   </modules>
 
   <distributionManagement>
-    <site>
-      <id>site-server</id>
-      <name>Test Project Site</name>
-      <url>file:///tmp/maven-project-site</url>
-    </site>
+    <repository>
+      <id>nexus</id>
+      <name>helloworld releases Nexus Repository</name>
+      <url>http://13.235.13.105:8081/repository/helloworld-releases/</url>
+    </repository>
+    <snapshotrepository>
+      <id>nexus</id>
+      <name>helloworld snapshot Nexus Repository</name>
+      <url>http://13.235.13.105:8081/repository/helloworld-Snapshot/</url>
+    </snapshotrepository>
   </distributionManagement>
 
   <build>
