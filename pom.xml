@@ -32,16 +32,19 @@
   </modules>
 
   <distributionManagement>
+           
     <repository>
       <id>nexus</id>
       <name>helloworld releases Nexus Repository</name>
       <url>http://13.235.13.105:8081/repository/helloworld-releases/</url>
     </repository>
-    <snapshotrepository>
+           
+    <snapshotRepository>
       <id>nexus</id>
       <name>helloworld snapshot Nexus Repository</name>
       <url>http://13.235.13.105:8081/repository/helloworld-Snapshot/</url>
-    </snapshotrepository>
+    </snapshotRepository>
+           
   </distributionManagement>
 
   <build>
