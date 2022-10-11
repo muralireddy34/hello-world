@@ -16,7 +16,7 @@
            <spring.version>5.1.2.RELEASE</spring.version>
            <junit.version>4.11</junit.version>
            <log4j.version>1.2.17</log4j.version>
-           <sonar.host.url>http://13.235.254.213:9000/</sonar.host.url>
+           <sonar.host.url>http://3.111.196.187:9000/</sonar.host.url>
            <sonar.login>ead553bebe225c7d2ce9495ace7427b84855fa5b</sonar.login>
             <!--
            <sonar.login>admin</sonar.login>
@@ -36,13 +36,13 @@
     <repository>
       <id>nexus</id>
       <name>helloworld releases Nexus Repository</name>
-      <url>http://13.235.13.105:8081/repository/helloworld-releases/</url>
+      <url>http://3.110.193.69:8081/repository/Paytm-releases/</url>
     </repository>
            
     <snapshotRepository>
       <id>nexus</id>
       <name>helloworld snapshot Nexus Repository</name>
-      <url>http://13.235.13.105:8081/repository/helloworld-Snapshot/</url>
+      <url>http://3.110.193.69:8081/repository/Paytm-Snapshot/</url>
     </snapshotRepository>
            
   </distributionManagement>
